@@ -5,6 +5,6 @@ on: push
 jobs:
    echo:
      runs-on: ubuntu:latest
-        steps:
-            - name: Show the trigger
-              run: echo "The Event is ${{github.event_name}}"
+     steps:
+        - name: Show the trigger
+          run: echo "The Event is ${{github.event_name}}"
