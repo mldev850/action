@@ -8,7 +8,7 @@ on:
     inputs:
         debug:
             type: boolean
-            default: false
+            default: true
 env:
    MY_WORKFLOW_VAR: 'workflow' 
    MY_OVERWRITTEN_VAR: 'workflow'
